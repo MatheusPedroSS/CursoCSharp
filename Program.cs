@@ -13,6 +13,7 @@ namespace CursoCSharp
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
                 {"Variaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
+                {"Inferência de Tipo - Fundamentos", Inferencia.Executar},
             });
 
             central.SelecionarEExecutar();
