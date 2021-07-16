@@ -11,12 +11,12 @@ namespace CursoCSharp.Fundamentos
             double preco = 5800.00;
 
             //Concatenação
-            System.Console.WriteLine("O " + nome + " da marca " + marca + " custa " + preco + ".");
+            Console.WriteLine("O " + nome + " da marca " + marca + " custa " + preco + ".");
 
             //Interpolação.
-            System.Console.WriteLine("O {0} da marca {1} custa {2}.", nome, marca, preco);
+            Console.WriteLine("O {0} da marca {1} custa {2}.", nome, marca, preco);
 
-            System.Console.WriteLine($"O {nome} da marca {marca} custa {preco}.");
+            Console.WriteLine($"O {nome} da marca {marca} custa {preco}.");
         }
     }
 }

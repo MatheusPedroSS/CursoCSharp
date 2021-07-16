@@ -11,13 +11,13 @@ namespace CursoCSharp.Fundamentos
                             .Insert(3, " World!")
                             .Replace("World!", "Mundo!");
 
-            System.Console.WriteLine(saudacao);
+            Console.WriteLine(saudacao);
 
-            System.Console.WriteLine("Teste".Length);
+            Console.WriteLine("Teste".Length);
 
             // Navegação Segura
             string valorImportante = null;
-            System.Console.WriteLine(valorImportante?.Length);
+            Console.WriteLine(valorImportante?.Length);
         }
     }
 }
